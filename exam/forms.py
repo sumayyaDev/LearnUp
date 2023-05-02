@@ -26,4 +26,3 @@ class QuestionForm(forms.ModelForm):
         widgets = {
             'question': forms.Textarea(attrs={'rows': 3, 'cols': 50})
         }
-        
